@@ -1,0 +1,276 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+
+body{
+	padding:0;
+	margin:0;
+	background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    font-family: "Montserrat", sans-serif;
+	background-position:center;
+	background-attachment:fixed;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;	
+}	
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+/*-- main --*/
+.content {
+    padding: 2em 0 0;
+}
+.subscribe h2 {
+    text-align: left;
+    color: #fff;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+	font-weight:150;
+    font-family: 'Montserrat', sans-serif;
+}
+.subscribe h2 span {
+	font-weight:150;
+	color:#fc636b;
+}
+p#note {
+    text-align: center;
+    line-height: 1.8em;
+    color:#fff;
+}
+.content h1 {
+    color: #3be8b0;
+    font-size: 60px;
+    text-align: left;
+    letter-spacing: 6px;
+    font-weight: 150;
+    font-family: "Montserrat", sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 1.5em;
+}
+.main {
+    width: 75%;
+    margin: 0 auto;
+    padding: 4em 9em 4em 0em;
+}
+p.para-w2ls {
+    text-align: left;
+    color: #fff;
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-weight: 100
+    font-family: "Montserrat", sans-serif;
+}
+p.para-w3ls {
+    text-align: left;
+    color: #fff;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+}
+p.copy_rights {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 1em;
+}
+p.copy_rights a{
+	text-decoration:none;
+	color:#3be8b0;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+}
+p.copy_rights a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+.subscribe{
+	margin-top:2em;
+}
+.subscribe input[type="email"] {
+    outline: none;
+    padding: 10.5px 10px;
+    border: none;
+    background: #ffffff;
+    font-size: 15px;
+    color: #010103;
+    width: 72%;
+    float: left;
+}
+.subscribe input[type="submit"] {
+    outline: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: #fc636b;
+    font-size: 1em;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+    width: 35.2%;
+}
+.subscribe input[type="submit"]:hover{
+	background:#3be8b0;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.contact-form {
+    width: 50%;
+    float: left;
+    margin-bottom: 75px;
+}
+.ClassyCountdown-wrapper {
+    text-align: center;
+}
+.clock .column {
+    display: inline-block;
+    width: 14%;
+    margin: 40px 0 0 50px;
+    border-top: 7px solid rgba(255, 255, 255, 0.1);
+    /*border-left: 7px solid rgba(255, 255, 255, 0.1);*/
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    /*border-bottom: 7px solid rgba(0, 0, 0, 0.2);*/
+    text-align: center;
+    background: rgba(0, 0, 0, 0.19);
+}
+.clock {
+    text-align: right;
+}
+.timer {
+    font-size: 74px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    letter-spacing: 5px;
+    /* background: rgba(0, 0, 3, 0.37); */
+    padding: 6px 16px;
+}
+.text {
+    color: #d0d0d0;
+    margin-bottom: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.68);
+    text-align: center;
+}
+.split-line {
+	color: #3be8b0;
+	border-color: #3be8b0;
+	background-color: #3be8b0;
+}
+/*-- responsive media queries --*/
+
+@media (max-width: 850px){
+	.main {
+		padding: 4.5em 1.5em 0em 0em;
+	}
+	.subscribe input[type="submit"] {
+		width: 72%;
+	}
+	.subscribe input[type="submit"] {
+		font-size: 12px;
+		letter-spacing: 1px;
+	}
+	.subscribe input[type="email"] {
+		padding: 10px 10px;
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+}
+
+@media (max-width: 480px){
+	.content h1 {
+		font-size: 28px;
+	}
+	.contact-form {
+		width: 95%;
+	}	
+	p.para-w3ls {
+		font-size: 15px;
+	}
+	.timer {
+		font-size: 43px;
+	}
+	.main {
+		padding: 5.5em 1.5em 0em 0em;
+	}
+	p.copy_rights {
+		margin: 4em 2em;
+	}
+	.contact-form {
+		width: 93%;
+	}
+}
+@media (max-width: 440px){
+	.main {
+		padding: 4em 1.2em 0em 0em;
+	}
+	.content h1 {
+		font-size: 31px;
+		line-height: 1.5em;
+		margin-bottom: 0.6em;
+	}
+	p.para-w3ls {
+		letter-spacing: 1.5px;
+	}
+	.timer {
+		font-size: 39px;
+	}
+	.clock .column {
+		margin: 28px 0 0 10px;
+	}
+	.subscribe h2 {
+		font-size: 1em;
+	}
+	.subscribe input[type="email"] {
+		width: 67.4%;
+	}
+	.subscribe input[type="submit"] {
+		width: 67.4%;
+	}
+	.text {
+		font-size: 11px;
+	}
+}

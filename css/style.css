@@ -73,7 +73,7 @@ p#note {
 }
 .content h1 {
     color: #3be8b0;
-    font-size: 60px;
+    font-size: 55px;
     text-align: left;
     letter-spacing: 6px;
     font-weight: 150;
@@ -82,7 +82,7 @@ p#note {
     margin-bottom: 1.5em;
 }
 .main {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     padding: 4em 9em 4em 0em;
 }
@@ -98,7 +98,7 @@ p.para-w2ls {
 p.para-w3ls {
     text-align: left;
     color: #fff;
-    font-size: 23px;
+    font-size: 20px;
     letter-spacing: 2px;
     font-weight: 100;
     font-family: "Montserrat", sans-serif;

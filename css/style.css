@@ -202,6 +202,25 @@ p.copy_rights a:hover {
 }
 /*-- responsive media queries --*/
 
+
+@media (max-width: 1630px){
+    .share-div {
+         padding-bottom: 20px;
+    }
+    #share-buttons {
+        margin-top: 70px
+    }
+}
+
+@media (max-width: 1200px){
+    .share-div {
+         padding-bottom: 20px;
+    }
+    #share-buttons {
+        margin-top: 0px
+    }
+}
+
 @media (max-width: 850px){
 	.main {
 		padding: 4.5em 1.5em 0em 0em;
@@ -218,6 +237,12 @@ p.copy_rights a:hover {
 		font-size: 14px;
 		letter-spacing: 1px;
 	}
+    .share-div {
+         padding-bottom: 20px;
+    }
+    #share-buttons {
+        margin-top: 0px
+    }
 }
 
 @media (max-width: 480px){
@@ -242,6 +267,12 @@ p.copy_rights a:hover {
 	.contact-form {
 		width: 93%;
 	}
+    .share-div {
+         padding-bottom: 20px;
+    }
+    #share-buttons {
+        margin-top: 0px
+    }
 }
 @media (max-width: 440px){
 	.main {
@@ -273,4 +304,8 @@ p.copy_rights a:hover {
 	.text {
 		font-size: 11px;
 	}
+    .share-div {
+         padding-bottom: 30px;
+    }
+    
 }
